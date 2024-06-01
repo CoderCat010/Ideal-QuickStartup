@@ -1,0 +1,78 @@
+// header, main, footer 
+<!--
+========================================
+=            HEADER SECTION            =
+========================================
+-->
+
+// every section 
+<!--:::::::::::::::::::::::::::::::::-->
+<!--          HEADER PART            -->
+<!--:::::::::::::::::::::::::::::::::-->
+
+// every line
+<!-- 
+    css links
+-->
+
+// css
+/* ==========================
+   RESET STYLES
+========================== */
+
+// every links 
+<!-- ************************ -->
+<!--        HEADER PART       -->
+<!-- ************************ -->
+
+or 
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+    <!--        HEADER PART           -->
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+
+ <!--* 
+        Second section banner container
+     -->
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+ .product-grid-container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 100px;
+   }
+
+   .product-main-content{
+      position: relative;
+      width: 200px;
+      height: 200px;
+      /* background-color: #138442; */
+      padding: 6.25rem .75rem;
+      border-radius: 1rem;
+      box-shadow: inset 0 -8px 24px hsla(0, 0%, 0%, .3);
+      z-index: 10;
+      backdrop-filter: blur(5px);
+   }
+   
+   /* =============================
+   BEST PRODUCT IMAGE STYLES
+   ================================ */
+   .product-img-container img{
+      position: absolute;
+      top: -5rem;
+      left: 0;
+      right: 0;
+      width: 150px;
+      margin: 0 auto;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, .4));
+      transition: transform .4s;
+   }
+
+   .product-img-container img:hover{
+      transform: translateY(-.5rem);
+   }
